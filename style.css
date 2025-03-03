@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", serif;
+    font-family: "Kantumruy Pro", serif;
+
+}
+
+/* <!-- ========================= [Nav Bar]  =========================== --> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background: #f8f9fa;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcf0d8;
+    padding: 15px 30px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.contact-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.contact-btn:hover{
+    background: #fffefe;
+    color: #070707;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* ========================[ Section 1 ]=============================== */
+
+
+/* ------aside----- */
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 97%;
+    height: auto;
+     border-radius: 10px;
+     background-color: rgb(223, 223, 223);
+    
+
+}
+.aside{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column-reverse;
+    rotate: 150;
+    width: 100px;
+    height: auto;
+    background-color: #f8f9fa;
+
+    
+}
+
+/* ----------------------main-div----------------------------- */
+.main-div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+
+}
+/* -------------------------div-left---------------------------- */
+
+
+.div-left{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    height: auto;
+
+}
+/* ---------------sub-left-1------------ */
+
+.sub-left-1{
+
+    flex-direction: column;
+    width: 230px;
+    height: auto;
+}
+
+/* ---seam-ream---- */
+.seam-ream{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    
+
+}
+.Arum-Lita, .p, .star{
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* .Arum-Lita{
+    margin-top: 20px;
+    padding: 20px;
+} */
+
+/* -----USA----- */
+
+.USA{
+    /* background-image: url('https://i.pinimg.com/736x/8c/cf/92/8ccf92ff35ef99140356b54c29e05aea.jpg'); */
+    background-image: url('https://i.pinimg.com/736x/8a/e0/0d/8ae00d1f54086f6d0d025eb5eacffd9f.jpg');
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 8px;
+    margin: 20px;
+
+}
+/* ----------------sub-left-2------------ */
+
+.sub-left-2{
+    flex-direction: column;
+    width: 230px;
+    height: auto;
+}
+
+/* philiphine */
+
+.philiphine{
+    background-image: url('https://i.pinimg.com/736x/65/5e/1d/655e1dc18ebb8bb1ffdb9beb22b227c1.jpg');
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+/* sunset */
+
+
+
+/* --------------------------div-right--------------------------- */
+
+.div-right{
+    /* background-color: rgb(127, 127, 200); */
+    width: 45%;
+    height: auto;
+    /* padding: 20px; */
+    padding: 10px 10px;
+}
+
+.explore-btn1{
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.explore-btn1:hover{
+    background: #fffefe;
+    color: #070707;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px 20px ;
+}
+
+
+/* ================================================================ */
+.h1-box,.p-box,.explore-btn1 ,.explore-btn2 ,.h2-box {
+    padding: 10px 10px;
+}
+/* ========================[ Section 2]=============================== */
+
+/* main section */
+
+.section2{
+    
+    width: 100%;
+    padding:30px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* div param */
+.explore-param{
+    width: 45%;
+    margin-left: 40px;
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    padding: 50px;
+    justify-content: space-between;
+
+}
+.explore-btn2{
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.explore-btn2:hover{
+        background: #fffefe;
+        color: #070707;
+        padding: 10px 20px;
+        border: 2px solid #007bff;
+        border-radius: 15px;
+        cursor: pointer;
+        margin: 10px 20px ;
+        
+    
+}
+.h1-box,.p-box, .explore-btn2 {
+    padding: 10px 10px;
+}
+
+
+/* mountain */
+
+.mountain{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    width: 45%;
+    margin-top: 20px;
+    height: auto;
+    margin-right: 40px;
+    box-shadow:  #327bc5;
+    
+    
+}
+
+
+.mountain-1{
+    background-image: url('https://i.pinimg.com/736x/54/4d/b9/544db91ea617be47036f477fe3a3b503.jpg');
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 8px;
+    border: 10px 10px 10px 10px #37638f;
+    box-shadow: 5px 5px 7px 10px rgba(0, 0, 0, 0.3);
+}
+/* ============================Dont forget to hover image========================================================== */
+
+.mountain-2{
+    background-image: url('https://i.pinimg.com/736x/5e/e2/ad/5ee2ad27cc7d3dee655c12fd7e07b822.jpg');
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 5px 5px 7px 10px rgba(0, 0, 0, 0.3);
+    /* position: relative; */
+}
+
+.mountain-3{
+    background-image: url('https://i.pinimg.com/736x/64/59/f0/6459f05ee0ced6d08385bccaf2d0f1f8.jpg');
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ========================[ Section 3 ]=============================== */
+
+/* travel-header A */
+
+.travel-header{
+
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+/* section 3 */
+
+.section3{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+
+/* travel-param B [ Reverse Number]*/
+
+.one, .two, .three{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+    
+    /* flex-wrap: wrap-reverse; */
+}
+.one {
+    order: 3; 
+}
+
+.two {
+    order: 2;
+}
+
+.three {
+    order: 1;
+}
+
+/* ========= travel-image ========== */
+.image{
+    position: relative;
+    background-image: url('https://i.pinimg.com/736x/40/fa/fd/40fafdf7d4c9954aad13d016aa7c35e9.jpg');
+    width: 250px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.name1, .name2, .name3{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.3);
+    
+}
+.name1{
+    position: absolute;
+    top: 40px;
+    left: -30px;
+    
+}
+.name2{
+    position: absolute;
+    top: 130px;
+    right: -40px;
+
+    
+}
+.name3{
+    position: absolute;
+    bottom: 60px;
+    left: -20px;
+
+}
+
+
+
+/* ========================[  Footer  ]=============================== */
+footer{
+    background-color: #fcf0d8;
+    text-align: center;
+    padding: 20px;
+    margin-left: 10px;
+    width: 100%;
+}
